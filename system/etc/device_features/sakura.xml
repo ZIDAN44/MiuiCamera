@@ -13,7 +13,7 @@
     <!--whether install the fm app-->
     <bool name="support_fm">true</bool>
     <!--whether the device supports oldman mode-->
-    <bool name="support_oldman_mode">false</bool>
+    <bool name="support_oldman_mode">true</bool>
     <!--whether the device is dual sim card-->
     <bool name="support_dual_sim_card">true</bool>
     <!--whether the device has dual systems-->
@@ -163,7 +163,7 @@
     <!--whether set orientation info for face detection in camera-->
     <bool name="is_camera_face_detection_need_orientation">true</bool>
     <!--whether hold blured background for effects preview in camera-->
-    <bool name="is_camera_hold_blur_background">false</bool>
+    <bool name="is_camera_hold_blur_background">true</bool>
     <!--whether support peaking mf in camera-->
     <bool name="support_camera_peaking_mf">false</bool>
     <!--whether support pause in hfr recording-->
@@ -347,7 +347,7 @@
     <!-- whether portrait is using qcom UDCF-Lite solution -->
     <bool name="is_udcf_portrait">true</bool>
     <!-- whether camera support AI lens entry -->
-    <bool name="camera_support_ai_lens">true</bool>
+    <bool name="camera_support_google_lens">true</bool>
     <!--whether taking legacy face beauty in camera-->
     <bool name="is_legacy_face_beauty">false</bool>
     <!--whether front camera support hdr or not-->
@@ -361,6 +361,8 @@
     <bool name="support_auto_mirror">false</bool>
     <!--whether support add watermark on bottom left of picture-->
     <bool name="support_picture_watermark">false</bool>
+    <!--whether camera support 3D face beauty-->
+    <bool name="support_3d_face_beauty">true</bool>
     <!--whether enable face detection in video and funmode or not-->
     <bool name="support_camera_video_face_detection">true</bool>
     <!-- whether enable hfr setting menu-->
@@ -369,4 +371,21 @@
     <bool name="sensor_has_latency">true</bool>
     <!--whether support freeform mode in game mode-->
     <bool name="support_freeform_reply">true</bool>
+    <!-- device head sar value -->
+    <float name="device_head_sar">0.964</float>
+    <!-- device body sar value -->
+    <float name="device_body_sar">0.780</float>
+    <!--wether support ime xiaoai voice input-->
+    <bool name="surpport_ime_xiaoai_voice">true</bool>
+    <!--whether support square mode in camera-->
+    <bool name="support_camera_square_mode">true</bool>
+    <!--whether support magic mirror in camera-->
+    <bool name="support_camera_magic_mirror">true</bool>
+    <!-- whether camera supports paralell process -->
+    <bool name="support_parallel_process">true</bool>
+    <!--whether support tele asd night in camera-->
+    <bool name="is_support_tele_asd_night">true</bool>
+    <!-- From android one -->
+    <bool name="is_android_one_device">true</bool>
+    <bool name="front_fingerprint_sensor">true</bool>
 </features>
